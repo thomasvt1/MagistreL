@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffffff">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="false"
+        android:id="@+id/colorGroup"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_purple"
+            android:id="@+id/PurpleButton"
+            android:checked="true"
+            android:textColor="#5E35B1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_green"
+            android:id="@+id/GreenButton"
+            android:checked="false"
+            android:textColor="#4CAF50" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_blue"
+            android:id="@+id/BlueButton"
+            android:checked="false"
+            android:textColor="#0097D3" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_lightblue"
+            android:id="@+id/LightBlueButton"
+            android:checked="false"
+            android:textColor="#03A9F4" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_indigo"
+            android:id="@+id/IndigoButton"
+            android:checked="false"
+            android:textColor="#3F51B5" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_greyblue"
+            android:id="@+id/GreyBlueButton"
+            android:checked="false"
+            android:textColor="#607D8B" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_red"
+            android:id="@+id/RedButton"
+            android:checked="false"
+            android:textColor="#F44336" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_orange"
+            android:id="@+id/OrangeButton"
+            android:checked="false"
+            android:textColor="#FF5722" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_yellow"
+            android:id="@+id/YellowButton"
+            android:checked="false"
+            android:textColor="#FFEE58" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView27"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:text="@string/string_save"
+        android:id="@+id/button3"
+        android:onClick="colorChosen"
+        android:layout_gravity="center" />
+
+</LinearLayout>

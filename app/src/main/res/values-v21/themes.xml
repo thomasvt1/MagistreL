@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PurpleTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+    </style>
+
+    <style name="BlueTheme">
+        <item name="android:colorPrimary">#0097D3</item>
+        <item name="android:colorPrimaryDark">#0097D3</item>
+        <item name="android:colorAccent">#2196F3</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:navigationBarColor">#0097D3</item>
+    </style>
+
+    <style name="RedTheme">
+        <item name="android:colorPrimary">#F44336</item>
+        <item name="android:colorPrimaryDark">#F44336</item>
+        <item name="android:colorAccent">#EF5350</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:navigationBarColor">#F44336</item>
+    </style>
+
+    <style name="GreenTheme">
+        <item name="android:colorPrimary">#4CAF50</item>
+        <item name="android:colorPrimaryDark">#4CAF50</item>
+        <item name="android:colorAccent">#66BB6A</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:navigationBarColor">#4CAF50</item>
+    </style>
+
+    <style name="BlueGreyTheme">
+        <item name="android:colorPrimary">#607D8B</item>
+        <item name="android:colorPrimaryDark">#607D8B</item>
+        <item name="android:colorAccent">#B0BEC5</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:navigationBarColor">#607D8B</item>
+    </style>
+
+    <style name="IndigoTheme">
+        <item name="android:colorPrimary">#3F51B5</item>
+        <item name="android:colorPrimaryDark">#3F51B5</item>
+        <item name="android:colorAccent">#5C6BC0</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:navigationBarColor">#3F51B5</item>
+    </style>
+
+    <style name="LightBlueTheme">
+        <item name="android:colorPrimary">#03A9F4</item>
+        <item name="android:colorPrimaryDark">#03A9F4</item>
+        <item name="android:colorAccent">#29B6F6</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:navigationBarColor">#03A9F4</item>
+    </style>
+
+    <style name="YellowTheme">
+        <item name="android:colorPrimary">#FFEB3B</item>
+        <item name="android:colorPrimaryDark">#FFEB3B</item>
+        <item name="android:colorAccent">#FFEE58</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:navigationBarColor">#FFEB3B</item>
+    </style>
+
+    <style name="OrangeTheme">
+        <item name="android:colorPrimary">#FF5722</item>
+        <item name="android:colorPrimaryDark">#FF5722</item>
+        <item name="android:colorAccent">#FF7043</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:navigationBarColor">#FF5722</item>
+    </style>
+
+</resources>

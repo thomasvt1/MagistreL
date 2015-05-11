@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Magistre</string>
+    <string name="action_turbo">Turbo Modus</string>
+    <string name="color_blue">Blauw</string>
+    <string name="color_green">Groen</string>
+    <string name="color_greyblue">Grijsblauw</string>
+    <string name="color_indigo">Indigo</string>
+    <string name="color_lightblue">Lichtblauw</string>
+    <string name="color_orange">Oranje</string>
+    <string name="color_purple">Paars</string>
+    <string name="color_red">Rood</string>
+    <string name="color_yellow">Geel</string>
+    <string name="string_adv_sub">Je kan de url veranderen in dit menu als iets niet werkt, bijvoorbeeld als de elo naar de homepagina verwijst</string>
+    <string name="string_cons_roosterwijzegingen">Roosterwijzigingen worden niet weergeven</string>
+    <string name="string_cons_turbo">Nadelen van Turbo Modus;</string>
+    <string name="string_desc_turbo">In dit menu kan je turbo modus aan of uit zetten</string>
+    <string name="string_elo">ELO</string>
+    <string name="string_exampleSchool">Segbroek</string>
+    <string name="string_grades">Cijfers</string>
+    <string name="string_messages">Berichten</string>
+    <string name="string_ok">Oke</string>
+    <string name="string_presence">Aanwezigheid</string>
+    <string name="string_pros_faster">Sneller</string>
+    <string name="string_pros_lessdata">Minder data</string>
+    <string name="string_pros_turbo">Voordelen van Turbo Modus;</string>
+    <string name="string_save">Opslaan</string>
+    <string name="string_tostart">Om te beginnen hebben we de url van Magister van jouw school nodig</string>
+    <string name="string_welcome">Welkom!</string>
+    <string name="action_color">Kleur</string>
+    <string name="action_clear">Cache legen</string>
+    <string name="action_advanced">Geavanceerd</string>
+    <string name="action_about">Over</string>
+    <string name="action_reload">Herladen</string>
+    <string name="action_settings">Reset</string>
+    <string name="open_page">Je moet een pagina open hebben om dit te laten werken</string>
+</resources>
