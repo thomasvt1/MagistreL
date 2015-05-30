@@ -12,13 +12,11 @@ import thomasvt.me.magistre.R;
 public class Advanced {
 
     public Advanced(Context context){
-        this.context = context;
         this.activity = (Activity) context;
         preferences = PreferenceManager.getDefaultSharedPreferences(context);
     }
 
     static SharedPreferences preferences;
-    private Context context;
     private Activity activity;
 
     public void fillBlanks() {
